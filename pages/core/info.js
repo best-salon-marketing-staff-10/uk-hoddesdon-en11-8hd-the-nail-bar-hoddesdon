@@ -22,9 +22,9 @@ const thongTinTiem1 = {
   
     phoneTiem : "01392 499232",
     
-    linkBookingMapTiem : "https://bit.ly/3y9c9dm",
+    linkBookingMapTiem : "",
     linkToMapTiem:"https://g.page/r/CZpCHCEWscvvEBA",
-    linkAppBookingTiem: "",
+    linkAppBookingTiem: "https://bit.ly/3CB3DVB",
   
     geoPositionContent : "50.7169990792343, -3.5399097627067366",
     geoRegionContent : "GB-BIR",
@@ -282,7 +282,7 @@ const thongTinTiem1 = {
   
     geoPlaceNameContent : thongTinTiem1.areaTiem + ", " + thongTinTiem1.countryTiem,
   
-    linkBookingTiem : thongTinTiem1.linkBookingMapTiem,
+    linkBookingTiem : thongTinTiem1.linkAppBookingTiem,
   
     TimeScheduleDescription:"What are you waiting for? Come get your paws groomed! At " + thongTinTiem1.tenTiem + " we work hard to make every experience feel comfortable, personalized and relaxing. Let our experienced technicians groom your paws.",
   

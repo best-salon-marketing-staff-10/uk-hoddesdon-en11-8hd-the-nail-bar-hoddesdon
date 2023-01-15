@@ -35,7 +35,7 @@ export default function MobileBottomNavBar(){
                                 </div>
                             </a>
                         </Link>
-                        <Link href={thongTinTiem2.callTiem}>
+                        <Link href={thongTinTiem2.linkBookingTiem}>
                             <a className="mobile-bottom-nav-bar-link-a">
                                 <div className="mobile-bottom-nav-bar-contact-us">
                                     <div>
@@ -49,7 +49,7 @@ export default function MobileBottomNavBar(){
                         </Link>
                     </div>    
                 </Navbar>
-            </div>
+            </div> 
         </>
     )
 }
