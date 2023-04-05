@@ -519,10 +519,10 @@ const thongTinTiem1 = {
 
     service9 : "Full Set Ombre",
     service9Time : "45 mins",
-    service9Price : "36",
+    service9Price : "37",
     service9Description : "Nail extensions help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
 
-    service10 : "Infill Ombre",
+    service10 : "Infill Ombre (from)",
     service10Time : "45 mins",
     service10Price : "26",
     service10Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
@@ -661,6 +661,11 @@ const thongTinTiem1 = {
     service37Time : "45 mins",
     service37Price : "25",
     service37Description : "",
+    
+    service38 : "Full set Acrylic French Tip",
+    service38Time : "45 mins",
+    service38Price : "40",
+    service38Description : "",
 
   }; 
   
@@ -700,7 +705,6 @@ const thongTinTiem1 = {
     service7Price : "25",
     service7Description : "",
   
-    // đang nghĩ là dịch vụ gel remove and tidy ( chưa chắc chắn)
     service8 : "Take off shellac",
     service8Time : "20 mins",
     service8Price : "10",
@@ -734,14 +738,12 @@ const thongTinTiem1 = {
     service5Time : "1 hr 15 mins",
     service5Price : "40",
     service5Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
-  
-    //
+
     service6 : "Shape & paint on hands",
     service6Time : "15 mins",
     service6Price : "9",
     service6Description : "",
-  
-    //
+
     service7 : "Shape & paint on toes",
     service7Time : "15 mins",
     service7Price : "12",
