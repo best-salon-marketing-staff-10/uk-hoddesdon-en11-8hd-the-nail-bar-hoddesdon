@@ -11,42 +11,42 @@
 
 
 const thongTinTiem1 = {
-    // Thông tin cơ bản của tiệm
-    tenTiem : "Diva Nails Exeter",
-    addressTiemLine1 : "22 Cowick Street",
-    areaTiem : "Exeter",
-    districtTiem :"Exeter",
-    cityTiem : "Exeter",
-    postcodeTiem : "EX4 1AL",
+    // Thông tin cơ bản của tiệm     
+    tenTiem : "The Nail Bar",
+    addressTiemLine1 : "128 High St",
+    areaTiem : "Hoddesdon",
+    districtTiem :"Hoddesdon",
+    cityTiem : "Hertfordshire",
+    postcodeTiem : "EN11 8HD",
     countryTiem : "United Kingdom",
   
-    phoneTiem : "01392 499232",
+    phoneTiem : "01992445330",
     
     linkBookingMapTiem : "",
-    linkToMapTiem:"https://g.page/r/CZpCHCEWscvvEBA",
-    linkAppBookingTiem: "https://bit.ly/3CB3DVB",
+    linkToMapTiem:"https://goo.gl/maps/pHcCh9cU41oEz3eBA",
+    linkAppBookingTiem: "https://bit.ly/3zvdwmE",
   
-    geoPositionContent : "50.7169990792343, -3.5399097627067366",
-    geoRegionContent : "GB-BIR",
+    geoPositionContent : "51.7613929032505, -0.0109350896995572",
+    geoRegionContent : "GB-HRT",
   
-    websiteTiem:"https://diva-nails-exeter.web.app",
+    websiteTiem:"",
   
       //Thời gian làm việc của tiệm
-      workingTimeMon : "Monday: 09:00–19:00",
-      workingTimeTue : "Tuesday: 09:00–19:00",
-      workingTimeWed : "Wednesday: 09:00–19:00",
-      workingTimeThu : "Thursday: 09:00–19:00",
-      workingTimeFri : "Friday: 09:00–19:00",
-      workingTimeSat : "Saturday: 09:00–19:00",
-      workingTimeSun : "Sunday: closed",
+      workingTimeMon : "Monday: 09:30–18:30",
+      workingTimeTue : "Tuesday: 09:30–18:30",
+      workingTimeWed : "Wednesday: 09:30–18:30",
+      workingTimeThu : "Thursday: 09:30–18:30",
+      workingTimeFri : "Friday: 09:30–18:30",
+      workingTimeSat : "Saturday: 09:30–18:30",
+      workingTimeSun : "Sunday: Closed",
   
       //iframe map
-    iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d751.031406205251!2d-3.539320333558971!3d50.716999164273375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xefcbb116211c429a!2sDiva%20nails%20%26%20spa!5e0!3m2!1sen!2suk!4v1658378056188!5m2!1sen!2suk",
+    iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d154.34077638026994!2d-0.010946824363833492!3d51.76133583657344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487621d3cb4b749f%3A0xef06ad6f7493277d!2sThe%20Nail%20bar!5e0!3m2!1sen!2sus!4v1680576466210!5m2!1sen!2sus",
   
       // Các ảnh của tiệm
-    ogImage:"https://i.ibb.co/3MBn7xy/og-image.jpg",
+    ogImage:"https://thenailbarhoddesdon.web.app/images/desktop-nail-salon-happy-customer-1.jpg",
     icon:"/icon.jpg",
-    logoTiem:"/logo1.jpg",
+    logoTiem:"/logo.jpg",
         //Ảnh ở Homepage carousel
     mobileCarouselImage1 : "/images/mobile-nail-salon-happy-customer-1.jpg",
     mobileCarouselImage2 : "/images/mobile-nail-salon-happy-customer-2.jpg",
@@ -114,7 +114,7 @@ const thongTinTiem1 = {
     //Ảnh trang about cho 3 giao diện
   
     mobileAboutUsImage1 : "/images/mobile-nail-salon-1.jpg",
-    mobileAboutUsImage2 : "/images/mobile-nail-salon-2.jpg",
+    mobileAboutUsImage2 : "/images/mobile-nail-salon-2-1.jpg",
     mobileAboutUsImage3 : "/images/mobile-nail-salon-3.jpg",
 
     tabletAboutUsImage1 : "/images/tablet-nail-salon-1.jpg",
@@ -273,7 +273,7 @@ const thongTinTiem1 = {
     sloganTiem : "The best nail salon in " + thongTinTiem1.areaTiem + " - " +  thongTinTiem1.tenTiem,
   
     //Dòng full address của tiệm
-    addressTiemTopBar : thongTinTiem1.addressTiemLine1 + ", " + thongTinTiem1.areaTiem + ", " + thongTinTiem1.postcodeTiem,
+    addressTiemTopBar : thongTinTiem1.addressTiemLine1 + ", " + thongTinTiem1.areaTiem + ", " + thongTinTiem1.cityTiem + "," + thongTinTiem1.postcodeTiem,
   
     //Xử lý gọi cho tiệm
     callTiem :`tel:${thongTinTiem1.phoneTiem}`,
@@ -481,17 +481,17 @@ const thongTinTiem1 = {
     service1Time : "45 mins",
     service1Price : "28",
     service1Description : "Nail extensions help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
-  
+
     service2 : "Acrylic Infill with normal nail polish",
     service2Time : "35 mins",
     service2Price : "20",
     service2Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
-  
+
     service3 : "Acrylic Full Set with Shellac",
     service3Time : "1 hr",
-    service3Price : "35",
+    service3Price : "36",
     service3Description : "Nail extensions help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
-  
+
     service4 : "Acrylic Infill with Shellac",
     service4Time : "45 mins",
     service4Price : "28",
@@ -516,20 +516,20 @@ const thongTinTiem1 = {
     service8Time : "45 mins",
     service8Price : "30",
     service8Description : "",
-  
+
     service9 : "Full Set Ombre",
     service9Time : "45 mins",
-    service9Price : "38",
+    service9Price : "36",
     service9Description : "Nail extensions help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
-  
+
     service10 : "Infill Ombre",
     service10Time : "45 mins",
-    service10Price : "32",
+    service10Price : "26",
     service10Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
-  
+
     service11 : "Full Set Colour Powder",
     service11Time : "45 mins",
-    service11Price : "32",
+    service11Price : "35",
     service11Description : "Nail extensions help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service12 : "Infill Colour Powder (Same Colour)",
@@ -561,7 +561,7 @@ const thongTinTiem1 = {
     service17Time : "1 hr",
     service17Price : "35",
     service17Description : "",
-  
+ 
     service18 : "Take off Powder",
     service18Time : "20 mins",
     service18Price : "12",
@@ -591,13 +591,13 @@ const thongTinTiem1 = {
     service23Time : "45 mins",
     service23Price : "32",
     service23Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
-  
-    service24 : "BIAB buider gel Fullset",
+ 
+    service24 : "BIAB builder gel Fullset",
     service24Time : "35 mins",
-    service24Price : "37",
+    service24Price : "40",
     service24Description : "",
-  
-    service25 : "BIAB buider gel Infill",
+
+    service25 : "BIAB builder gel Infill",
     service25Time : "30 mins",
     service25Price : "30",
     service25Description : "",
@@ -656,6 +656,12 @@ const thongTinTiem1 = {
     service36Time : "35 mins",
     service36Price : "20",
     service36Description : "Take off powder and then do manicure",
+
+    service37 : "Infill Colour Powder",
+    service37Time : "45 mins",
+    service37Price : "25",
+    service37Description : "",
+
   }; 
   
   const serviceList2 = {
@@ -668,15 +674,15 @@ const thongTinTiem1 = {
     service2Time : "30 mins",
     service2Price : "20",
     service2Description : "",
-  
+
     service3 : "Manicure Shellac",
     service3Time : "40 mins",
-    service3Price : "28",
+    service3Price : "22",
     service3Description : "Manicures are a difficult art to master. No matter how great they look when finished, they seem to always chip within days, if not in a matter of hours. Enter the Gel nail manicure - a groundbreaking technique that uses gel polishes that get 'cured' under UV lights. The result? Shiny, strong nails for weeks and no drying time!",
-  
+
     service4 : "Pedicure Shellac",
     service4Time : "40 mins",
-    service4Price : "35",
+    service4Price : "23",
     service4Description : "Please bring Flip Flops/Sandals. Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
   
     service5 : "Gel Polish Manicure & Pedicure",
@@ -694,10 +700,13 @@ const thongTinTiem1 = {
     service7Price : "25",
     service7Description : "",
   
+    // đang nghĩ là dịch vụ gel remove and tidy ( chưa chắc chắn)
     service8 : "Take off shellac",
     service8Time : "20 mins",
-    service8Price : "8",
+    service8Price : "10",
     service8Description : "Just take off shellac",
+
+   
   };
   
   const serviceList3 = {
@@ -726,14 +735,16 @@ const thongTinTiem1 = {
     service5Price : "40",
     service5Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
   
+    //
     service6 : "Shape & paint on hands",
     service6Time : "15 mins",
-    service6Price : "12",
+    service6Price : "9",
     service6Description : "",
   
+    //
     service7 : "Shape & paint on toes",
     service7Time : "15 mins",
-    service7Price : "15",
+    service7Price : "12",
     service7Description : "",
 
     service8 : "Smoothing Pedicure with normal polish",
@@ -785,6 +796,58 @@ const thongTinTiem1 = {
     service17Time : "90 mins",
     service17Price : "70",
     service17Description : "Your feet & hand have been longawaiting for rejuvenating pedicure & manicure. Say ahh… to a warm whirlpool soaking with Mineral Herbal Bath. Then a gentle massage and Walnut Husk Liquid Body Lufra exfoliation.While regular pedicure components are tented, a calf massage with the Invigorating Icedancer and steamy towel wrap are added for restoring vitality and energizing the legs. Dry heel are also treated with an all Spice Berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for an ultimate experience",
+
+     service18 : "Spa Manicure",
+     service18Time : "45 mins",
+     service18Price : "14",
+     service18Description : "",
+ 
+     service19 : "Spa Pedicure",
+     service19Time : "45 mins",
+     service19Price : "26",
+     service19Description : "",
+ 
+     service20 : "Spa Manicure with normal polish",
+     service20Time : "60 mins",
+     service20Price : "16",
+     service20Description : "",
+ 
+     service21 : "Spa Pedicure with normal polish",
+     service21Time : "60 mins",
+     service21Price : "28",
+     service21Description : "",
+
+     service22 : "Spa Manicure with Shellac",
+     service22Time : "60 mins",
+     service22Price : "27",
+     service22Description : "",
+
+     service23 : "Spa Pedicure with Shellac",
+     service23Time : "60 mins",
+     service23Price : "36",
+     service23Description : "",
+
+     service24 : "Package Spa Manicure & Pedicure ",
+     service24Time : "1 hr 15 mins",
+     service24Price : "37",
+     service24Description : "",
+
+     service25 : "Package Spa Manicure & Pedicure with normal polish",
+     service25Time : "1 hr 30 mins",
+     service25Price : "40",
+     service25Description : "",
+
+     service26 : "Package Spa Manicure & Pedicure with Shellac",
+     service26Time : "1 hr 30 mins",
+     service26Price : "60",
+     service26Description : "",
+
+
+
+
+
+
+
   };
   
   const serviceList4 = {
@@ -818,8 +881,8 @@ const thongTinTiem1 = {
     service1Time : "",
     service1Price : "3",
     service1Description : "",
-  
-    service2 : "Diamond Crystal x10",
+
+    service2 : "Diamond Crystal (from) ",
     service2Time : "",
     service2Price : "3",
     service2Description : "",
@@ -828,6 +891,23 @@ const thongTinTiem1 = {
     service3Time : "",
     service3Price : "5",
     service3Description : "",
+
+    service4 : "French (from)",
+    service4Time : "",
+    service4Price : "3",
+    service4Description : "",
+
+    service5 : "Colour tips (from)",
+    service5Time : "",
+    service5Price : "3",
+    service5Description : "",
+
+    //
+    service6 : "Nail Art (from)",
+    service6Time : "",
+    service6Price : "5",
+    service6Description : "",
+
   }; 
   
   const serviceList6 = {
