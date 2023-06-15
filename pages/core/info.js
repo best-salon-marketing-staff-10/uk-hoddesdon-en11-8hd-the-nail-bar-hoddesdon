@@ -26,7 +26,7 @@ const thongTinTiem1 = {
     linkToMapTiem:"https://goo.gl/maps/pHcCh9cU41oEz3eBA",
     linkAppBookingTiem: "https://bit.ly/3zvdwmE",
   
-    geoPositionContent : "51.7613929032505, -0.0109350896995572",
+    geoPositionContent : "51.761432363021264, -0.01103145490268241",
     geoRegionContent : "GB-HRT",
   
     websiteTiem:"",
@@ -273,7 +273,7 @@ const thongTinTiem1 = {
     sloganTiem : "The best nail salon in " + thongTinTiem1.areaTiem + " - " +  thongTinTiem1.tenTiem,
   
     //Dòng full address của tiệm
-    addressTiemTopBar : thongTinTiem1.addressTiemLine1 + ", " + thongTinTiem1.areaTiem + ", " + thongTinTiem1.cityTiem + "," + thongTinTiem1.postcodeTiem,
+    addressTiemTopBar : thongTinTiem1.addressTiemLine1 + ", " + thongTinTiem1.areaTiem + ", " + thongTinTiem1.cityTiem + ", " + thongTinTiem1.postcodeTiem,
   
     //Xử lý gọi cho tiệm
     callTiem :`tel:${thongTinTiem1.phoneTiem}`,

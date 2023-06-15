@@ -150,7 +150,7 @@ export default function DesktopFooter(){
                     © Copyright and Powered by 
                     <Link href="https://speedcustomer.com">
                         <a className="footer-copyright" rel="dofollow">
-                            &nbsp;SC
+                            &nbsp;BSM
                         </a>
                     </Link>
                 </div>
