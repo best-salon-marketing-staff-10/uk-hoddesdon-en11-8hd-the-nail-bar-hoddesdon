@@ -291,7 +291,7 @@ const thongTinTiem1 = {
       ourStoryDescription : "Located at " + thongTinTiem1.addressTiemLine1 + ", we are a nail shop in " + thongTinTiem1.districtTiem + ". Skilled manicurists and pedicurists look forward to bringing you the best products and services. We are always researching and learning the best products and services, trendy nails, to bring more and more satisfaction to customers who are coming to us.",
 
     //dong-vien-1.js
-      dongVien1Heading : "We are experienced manicurist and pedicurist",
+      dongVien1Heading : "We are experienced manicurists and pedicurists in " + thongTinTiem1.areaTiem,
       dongVien1Description : "Are you looking for nail shops in " + thongTinTiem1.areaTiem + "? One of the best nail salon in " + thongTinTiem1.cityTiem + "? We are proud to say that here we are. We can give you amazing nails with our acrylic extensions and great relaxation with our manicure and pedicure services. We cater to both men and women. You can rest assured and get a sense of satisfaction when you come to us",
       dongVien1Image1Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
 

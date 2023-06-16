@@ -46,8 +46,8 @@ export default function Home() {
           <meta property='og:description' 
             content={thongTinTiem2.metaDescriptionContent} />
           <meta property='og:url' content={thongTinTiem1.websiteTiem} />
-          <meta property='og:image:width' content='1164' />
-          <meta property='og:image:height' content='1032' />
+          <meta property='og:image:width' content='1920' />
+          <meta property='og:image:height' content='1073' />
           <meta property="og:type" content='website' />
 
           <meta name="google-site-verification" content="8PY9C4tyFxx-C0abTprXegCqjI9VHTxWzt57enQ1cNc" />
